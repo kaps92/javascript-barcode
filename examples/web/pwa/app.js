@@ -186,7 +186,7 @@ function showResults(results) {
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('/javascript-barcode/examples/pwa/service-worker.js')
+        .register('/javascript-barcode/examples/web/pwa/service-worker.js')
         .then(function () {
             console.log('Service Worker Registered');
         });
